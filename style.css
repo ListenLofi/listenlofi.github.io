@@ -120,37 +120,6 @@ border-style: solid;
   transform: translate(1600px,300px)
 }
 
-label{
-  position: absolute;
-  width: 45px;
-  height: 22px;
-  border: 2px solid;
-  border-radius: 20px;
-}
-label:before{
-  position: absolute;
-  content: '';
-  width:20px;
-  height: 20px;
-  left: 1px;
-  top: 1px;
-  border-radius: 50%;
-  background: #000;
-  cursor: pointer;
-  transition: 0.3s;
-}
-label.active:before{
-  left: 24px;
-  background: grey;
-}
-body.night{
-  color: grey;
-}
-@media screen and (min-width:900px) {
-.respon{
-  display: flex;
-}}
-
 a:link{
   text-decoration: underline;
 }
