@@ -1,0 +1,160 @@
+#outerBackground {
+  background-color:#3e5c76;
+  width: auto;
+  height: 80%;
+ padding: 1px;
+ margin: 13px;
+  border-radius: 20px;
+border-style: solid;
+  border-color: #0d1321;
+
+}
+h1{
+ margin: 10px;
+ padding: 10px;
+ color: #f0ebd8;
+}
+p.main{
+  color: #f0ebd8;
+}
+body {
+
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+  
+
+#userInst {
+  position: relative;
+  transform: translate(550px,-20px) ;
+  font-size: 19px;
+}
+.container{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: left;
+  bottom: 0px;
+  padding-left: 0;
+
+
+}
+.container img, .container iframe, .container div{
+color:#231B1B;
+height: 200px;
+width: 320px;
+background-color:grey;
+text-align:center;
+line-height: 300px;
+font-size: 20px;
+border-radius: 250px;
+margin: 7px;
+bottom: 0px;
+border-style: solid;
+  border-color: #0d1321;
+  list-style: none;
+  flex: 0 0 22.333333%;
+
+
+}
+#aboutMe{
+  transform: translate(1300px,100px);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: fixed;
+    background: #1d2d44;
+    width: 100px;
+    height: 40%;
+    top: 4px;
+    right: 4px;
+    z-index: 1;
+border-style: solid;
+  border-color: #0d1321;
+    border-radius: 20px;
+}
+
+.sidebar h2{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f0ebd8;
+    background: #1d2d44;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+
+}
+
+.sidebar ul li {
+    margin: 25px 0;
+}
+
+.sidebar ul li a{
+    color: #f0ebd8;
+    padding: 0 30px;
+
+}
+.sidebar ul li a:hover{
+    color: #748cab;
+    margin-left: 5px;
+    transition: 0.4s;
+}
+
+.main{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.main h2{
+    margin-top: 20px;
+}
+
+#inst{
+  transform: translate(1600px,300px)
+}
+
+label{
+  position: absolute;
+  width: 45px;
+  height: 22px;
+  border: 2px solid;
+  border-radius: 20px;
+}
+label:before{
+  position: absolute;
+  content: '';
+  width:20px;
+  height: 20px;
+  left: 1px;
+  top: 1px;
+  border-radius: 50%;
+  background: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+label.active:before{
+  left: 24px;
+  background: grey;
+}
+body.night{
+  color: grey;
+}
+@media screen and (min-width:900px) {
+.respon{
+  display: flex;
+}}
+
+a:link{
+  text-decoration: underline;
+}
+#fav{
+  transform: translate(950px,335px); 
+  color: #3e5c76;
+}
