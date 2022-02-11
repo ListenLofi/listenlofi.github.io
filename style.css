@@ -20,6 +20,7 @@ p.main{
 body {
 
   font-family: "Lucida Console", "Courier New", monospace;
+  overflow-x: hidden;
 }
   
 
