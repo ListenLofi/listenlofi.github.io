@@ -129,11 +129,8 @@ a:link{
 }
 
 #adsbygoogle {
-  border: 1px solid;
-  height:180px ;
-  width:230px;
   position: fixed;
-  margin: 15px;
-  bottom:-10px;
+  margin: 10px;
+  bottom:-5px;
   right:0px
 }
