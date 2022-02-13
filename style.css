@@ -127,3 +127,13 @@ a:link{
 #fav{
   transform: translate(950px,335px); 
 }
+
+#adsbygoogle {
+  border: 1px solid;
+  height:180px ;
+  width:230px;
+  position: fixed;
+  margin: 15px;
+  bottom:-10px;
+  right:0px
+}
